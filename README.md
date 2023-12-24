@@ -16,7 +16,7 @@ To get started, ensure you have the following:
 
    1. Clone this repository to your local machine.
 
-     - git clone https://github.com/siddharthsonii/chat-application.git
+     - git clone https://github.com/siddharthsonii/Real-Time-Chat-Application.git
 
    2. Navigate to the project directory.
       
