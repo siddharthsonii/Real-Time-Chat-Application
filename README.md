@@ -45,6 +45,9 @@ To get started, ensure you have the following:
             |--main.js
         |-- chat.html
         |-- index.html
+    |-- screenshots
+        |-- ss1.png
+        |-- ss2.png
     |-- index.js
     |-- package-lock.json
     |-- package.json
@@ -72,6 +75,8 @@ To get started, ensure you have the following:
    Test the chat application by opening multiple browser instances to simulate multiple users.
 
 Feel free to contribute, report issues, or suggest improvements!
+
+## **Here are some screenshots of project:**
 
 ![](./screenshots/ss1.png)
 ![](./screenshots/ss2.png)
