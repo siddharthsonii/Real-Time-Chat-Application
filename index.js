@@ -31,7 +31,7 @@ io.on("connection", (socket) => {
     // Sends a message to the client. (Will be Shown to New User Only in Starting)
     socket.emit(
       "message",
-      formatMessage("Aitribe", "Messages are limited to this room")
+      formatMessage("BOT", "Messages are limited to this room")
     );
 
     // Sends a message to all clients except the sender.
@@ -39,7 +39,7 @@ io.on("connection", (socket) => {
       .to(user.room)
       .emit(
         "message",
-        formatMessage("Aitribe", `${user.username} has joined the room`)
+        formatMessage("BOT", `${user.username} has joined the room`)
       );
 
     // Sends a Live Updated Data List to all clients in a specific room.
@@ -65,7 +65,7 @@ io.on("connection", (socket) => {
     // Sends a message to all clients in a specific room.
     io.to(user.room).emit(
       "message",
-      formatMessage("Aitribe", `${user.username} has left the room`)
+      formatMessage("BOT", `${user.username} has left the room`)
     );
 
     // Update Room Users to all clients in a specific room.
