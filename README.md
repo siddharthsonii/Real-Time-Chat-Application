@@ -73,5 +73,5 @@ To get started, ensure you have the following:
 
 Feel free to contribute, report issues, or suggest improvements!
 
-![](ss1.png)
-![](ss2.png)
+![](./screenshots/ss1.png)
+![](./screenshots/ss2.png)
