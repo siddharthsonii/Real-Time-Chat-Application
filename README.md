@@ -2,7 +2,7 @@
 
 ## **Objective:**
 
-Build a real-time chat application using Node.js, Express.js, and Socket.IO. This project aims to create a dynamic chat experience, allowing multiple users to join chat rooms and communicate seamlessly in real-time.
+Build a real-time chat application using Node.js, Express.js, and Socket.IO. This project aims to create a dynamic chat experience, allowing multiple users to join chat rooms and communicate seamlessly in real time.
 
 ## **Requirements:**
 
@@ -36,7 +36,6 @@ To get started, ensure you have the following:
 
     |-- helper
         |-- helper.js
-    |-- node_modules
     |-- public
         |-- css
             |-- chat.css
@@ -66,7 +65,7 @@ To get started, ensure you have the following:
      - `message`: Broadcast a message to all users in a chat room.
      - `disconnect`: Handle user disconnections and clean up user data.
   4. Socket.IO Event Listeners (Client-Side):
-     - Implement JavaScript listeners to update the user interface in real time.
+     - Implement JavaScript listeners to update the user interface in real-time.
   5. Error Handling:
      - Proper error handling for invalid chat room names, user names, and other potential issues.
 
@@ -76,7 +75,7 @@ To get started, ensure you have the following:
 
 Feel free to contribute, report issues, or suggest improvements!
 
-## **Here are some screenshots of project:**
+## **Here are some screenshots of the project:**
 
 ![](./screenshots/ss1.png)
 ![](./screenshots/ss2.png)
